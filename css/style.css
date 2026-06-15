@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #000;
+  font-family: sans-serif;
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+}
+.container {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 380px;
+  padding: 1.3rem;
+}
+.container .card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: min(1rem, 5vw);
+  margin: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  margin-top: max(2rem, 5vh);
+}
+.container .card:hover {
+  transform: translateY(-9px);
+}
+.container .card .card-img img {
+  max-width: 100%;
+  border-radius: 10px;
+ }
+.container .card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 7px;
+}
+.container .card .card-content b {
+  background-color: hsl(47, 88%, 63%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: #000;
+  margin: 17px 0;
+  width: fit-content;
+  font-weight: 800;
+  cursor: pointer;
+}
+.container .card .card-content p:nth-of-type(1) {
+  font-size: 17px;
+}
+.container .card .card-content h2 {
+  padding: 12px 0;
+  transition: 0.4s;
+}
+.container .card .card-content h2:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+.container .card .card-content p:nth-of-type(2) {
+  color: #333333a0;
+  transition: 0.4s;
+}
+.container .card .card-content p:nth-of-type(2):hover {
+  color: #000;
+}
+.container .card .card-content div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: clamp(1.25rem, 5vw, 1.5rem);
+  margin: 10px 0;
+  font-weight: bolder;
+}
+.container .card .card-content div img {
+  width: 50px;
+}
+/* responsive  */

@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - **Solution URL:** [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/your-solution-url)
-- **Live Site URL:** [Live Preview](https://your-blog-preview-card.netlify.app)
+- **Live Site URL:** [Live Preview](https://blog-preview-card-plum.vercel.app/)
 
 ---
 
